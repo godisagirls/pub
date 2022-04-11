@@ -1,5 +1,5 @@
 #!/bin/bash
-#bash <(wget -qO- https://godgs.github.io/pub/install.sh)
+# yum install -y wget && wget -O install.sh https://godisagirls.github.io/pub/install.sh && sh install.sh
 
 sudo yum remove -y $(yum list installed|grep docker | awk '{print $1}' )
 sudo yum install -y yum-utils
