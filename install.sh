@@ -58,7 +58,7 @@ services:
       - SALT=
       - POSTURL=http://34.92.73.63/api/route_sync
       - PEER_BANDWIDTH=2 #单个peer限速
-      - LOG_LEVEL=debug
+      #- LOG_LEVEL=debug
 EOF
 
 chmod +x ./work/sh/*.sh
